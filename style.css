@@ -1,0 +1,131 @@
+
+body {
+  background: #ff5f6d;
+  background: -webkit-linear-gradient(to right, #ff5f6d, #ffc371);
+  background: linear-gradient(to right, #ff5f6d, #ffc371);
+  line-height: auto;
+  horizontal-align: middle;
+}
+
+a:hover {
+    background-color: yellow;
+}
+
+li:hover {
+  background-color: yellow;
+}
+
+li {
+  background-color: white;
+  font-family: light;
+  color: grey;
+}
+
+h1 {
+  background-color: white;
+  font-family: Anton, bold;
+  color: black;
+}
+
+h2 {
+  background-color: white;
+  font-family: Anton;
+  color: grey;
+}
+
+h3 {
+  background-color: white;
+  font-family: Anton;
+  color: grey;
+}
+
+p {
+  background-color: white;
+  font-family: light;
+  color: grey;
+}
+
+img {
+  height: 350px;
+  width: 250px;
+}
+/*
+tr {
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px;
+  line-height: 25px;
+}
+
+td {
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px;
+  line-height: 25px;
+}
+*/
+
+
+li {
+  display: inline-block;
+/*  width: 600px;*/
+  height: auto;
+  color: red;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px;
+  line-height: 25px;
+}
+
+
+
+.profile-card {
+  display: inline-block;
+  height:  600px;
+  width: 600px;
+  color: white;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px;
+  line-height: 25px;
+}
+.profile-round {
+  background-color: white;
+  width: 350px;
+  height: 400px;
+  border-radius: 50%;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: #F78853;
+  font-family: Anton, bold;
+  border-radius: 5%;
+  height: 25px;
+  width: 125px;
+  padding: 3px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.table-card {
+ /* align-self: center;*/
+  width: 600px;
+  font-family: Anton;
+  /*margin top bottom ce que tu veux, auto pour droite gauche et centrer*/
+  margin: 20px auto;
+  color: white;
+  text-align: center;
+  background-color: white;
+  opacity: 0.9;
+  padding: 30px;
+  line-height: 25px;
+}
+
